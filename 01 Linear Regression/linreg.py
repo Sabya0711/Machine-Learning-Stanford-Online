@@ -16,7 +16,7 @@ import seaborn as sn
 
 ##Linear regression in one variable
 
-data = np.loadtxt('../data/ex1data1.txt', delimiter=',')
+data = np.loadtxt('ex1data1.txt', delimiter=',')
 X = np.c_[np.ones(data.shape[0]),data[:,0]]
 y = np.c_[data[:,1]]
 
